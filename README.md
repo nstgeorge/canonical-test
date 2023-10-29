@@ -13,5 +13,9 @@ This page was built from [my React template](https://github.com/nstgeorge/react-
  - Strictly one author per article.
  - Card vertical size is determined by title length and not static.
 
+## Future Improvements (If I Were To Continue)
+ - Improve loading UI (fix jumping around)
+ - Build mock page around these articles, including title and greyed-out article blocks below the existing one
+
 
 
