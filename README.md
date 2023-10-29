@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Open up [`localhost:5173`](localhost:5173) and you should be set!
+Open up [localhost:5173](http://localhost:5173) and you should be set!
 
 ## Potential Inaccuracies
  - "Article" does not appear in the WordPress data, so it is hardcoded with the option to easily extend in the future.
