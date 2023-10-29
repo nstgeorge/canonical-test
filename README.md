@@ -4,6 +4,15 @@
 
 This page was built from [my React template](https://github.com/nstgeorge/react-template).
 
+## How To Run
+
+```bash
+npm install
+npm run dev
+```
+
+Open up `localhost:5173` and you should be set!
+
 ## Potential Inaccuracies
  - "Article" does not appear in the WordPress data, so it is hardcoded with the option to easily extend in the future.
  - `p-card` Y padding is a little larger on the default card styling. I decided to match existing styling and made slight adjustments to the overall spacing to account for this.
