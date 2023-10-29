@@ -1,0 +1,42 @@
+.card {
+  position: relative;
+  border-radius: 3px;
+  width: 350px;
+}
+
+.accent-line {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #a87ca0;
+}
+
+.topic {
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+hr.dotted {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-top: 1px dotted rgba(0, 0, 0, 0.3);
+  margin-top: 0.6rem;
+}
+
+.content-container {
+  padding: 0 10px;
+}
+
+.image {
+  border-radius: 3px;
+}
+
+.author-line {
+  margin-top: 10px;
+}
+
+.article-label {
+  padding: 0 10px;
+}

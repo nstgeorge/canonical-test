@@ -1,0 +1,6 @@
+@import 'vanilla-framework';
+@include vanilla;
+
+html {
+  font-size: 1rem; // Override browser defaults
+}

@@ -1,30 +1,17 @@
-# React Template
+# Canonical Test
 
-This is the template I use for new React projects.
+[A deployed version of this project is available.](https://nstgeorge.github.io/canonical-test/)
 
-## How to Use
+This page was built from [my React template](https://github.com/nstgeorge/react-template).
 
-I recommend using degit to grab this repo, or you can click the "Use this template" button above.
+## Potential Inaccuracies
+ - "Article" does not appear in the WordPress data, so it is hardcoded with the option to easily extend in the future.
+ - `p-card` Y padding is a little larger on the default card styling. I decided to match existing styling and made slight adjustments to the overall spacing to account for this.
 
-```sh
-degit nstgeorge/react-template my-project # grab the repo
-cd my-project
-npm install # install dependencies
-npm run dev # start dev server
-```
+## Assumptions Made
+ - "Cloud and Server" was the topic of the articles in the mockup (not the group or a different tag).
+ - Strictly one author per article.
+ - Card vertical size is determined by title length and not static.
 
-That should be it! Your page is at [localhost:5173](http://localhost:5173) by default. Feel free to use the few UI elements I have in here.
 
-## Important Libraries and Frameworks
-
-Check these links for documentation.
-
- - [React 18](https://react.dev/)
- - [Vite w/ Babel](https://vitejs.dev/guide/) (swapping to SWC in the future when Twin supports it)
- - [Twin](https://github.com/ben-rogerson/twin.macro)
- - [TailwindCSS](https://tailwindcss.com/docs/installation)
- - [HeadlessUI](https://headlessui.com/)
- - [Framer Motion](https://www.framer.com/motion/)
- - [React Router](https://reactrouter.com/en/main/start/tutorial)
- - [localforage](https://github.com/localForage/localForage)
 
